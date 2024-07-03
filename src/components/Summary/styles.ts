@@ -7,14 +7,14 @@ export const Container = styled.div`
   margin-top: -10rem;
 
   div{
-    background: var(--shape);
+    background: var(--gray4);
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
-    color: var(--text-title);
+    color: var(--gray6);
 
     &.green{
-    background: var(--green);
-    color: #FFFFFF;
+    background: var(--green-dark);
+    color: var(--gray6);
   }
   }
 
@@ -30,6 +30,7 @@ export const Container = styled.div`
     font-size: 2rem;
     font-weight: 500;
     line-height: 3rem;
+    color: var(--gray7)
   }
 
   
